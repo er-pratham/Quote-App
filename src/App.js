@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
-
+import MainBox from './Components/MainBox';
+import Header from './Components/Header';
+import About from './Components/About';
+import Footer from './Components/Footer';
 function App() {
+  const [aboutDisplay,setAboutDisplay]=useState(false);
+  const DisplayConfiguration=()=>{
+    setAboutDisplay(!aboutDisplay);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header dsplyConfig={DisplayConfiguration}/>
+      <MainBox />
+      {aboutDisplay?<About/>:null}
+      <Footer/>
     </div>
   );
 }
