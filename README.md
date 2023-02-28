@@ -14,10 +14,10 @@ https://user-images.githubusercontent.com/94908262/221769976-1987a3c3-5fd4-48aa-
 
 ## API Reference
 
-#### Get all items
+#### Get all items with GET Request 
 
 ```http
-  GET Request - https://api.quotable.io/random
+   https://api.quotable.io/random
 ```
 
 
