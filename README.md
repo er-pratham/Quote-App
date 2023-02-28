@@ -8,6 +8,10 @@ The quote app offers its users random quotes and the ability to copy them.
 
 
 
+https://user-images.githubusercontent.com/94908262/221769976-1987a3c3-5fd4-48aa-999a-2467c1c94fce.mp4
+
+
+
 ## API Reference
 
 #### Get all items
