@@ -21,6 +21,8 @@ export default function MainBox() {
    useEffect(()=>{
     getURL();
    },[])
+ 
+
   return (
     <div className='MainBox'>
       <h1>Quote</h1>
