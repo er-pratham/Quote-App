@@ -39,7 +39,8 @@
 .rightHeader button:active{
   transform: translate(0,10%);
 }
-.MainBox{
+
+.MainBox,.About{
   background-color: rgb(94, 161, 161);
   width: 35%;
   margin: auto;
@@ -48,6 +49,25 @@
   margin-top: 15px;
   /* height: 450px; */
   border-radius: 5px
+}
+.About h1{
+  text-align: center;
+  font-family: 'Tilt Neon', cursive;
+  color: darkgoldenrod;
+}
+.About p{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 25px;
+  font-size: 1.3rem;
+  color: darkblue;
+}
+.PrathamSaxena a{
+  color: red;
+  text-decoration: none;
+}
+.PrathamSaxena a:hover{
+  color: azure;
 }
 .MainBox h1{
   text-align: center;

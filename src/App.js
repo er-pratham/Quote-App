@@ -12,8 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header dsplyConfig={DisplayConfiguration}/>
-      <MainBox />
-      {aboutDisplay?<About/>:null}
+      {aboutDisplay?null:<MainBox/>}      {aboutDisplay?<About/>:null}
       <Footer/>
     </div>
   );
