@@ -16,7 +16,6 @@
 .leftHeader{
   display: flex;
   align-items: center;
-  /* flex-direction: row-reverse; */
 }
 .Header .leftHeader a{
   text-decoration: none;
@@ -83,7 +82,7 @@
   color: darkmagenta;
 }
 .MainBox h5{
-  width: 70%;
+  width: 100%;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -124,4 +123,127 @@
   padding-right: 15px;
   caret-color: transparent;
   color: aliceblue;
+}
+@media screen and (max-width: 480px) {
+  .Header{
+    width: 80%;
+  }
+  .Header .leftHeader a h1{
+    font-size: 1.3rem;
+  }
+  .rightHeader button{
+    padding: 5.8px;
+  }
+  .MainBox,.About{
+    width: 75%;
+  }
+  .MainBox h1{
+    font-size: 1.5rem;
+  }
+  .MainBox h3{
+    width: 95%;
+    font-size: 20px;
+  }
+  .buttonMainBox{
+    width: 100%;
+  }
+  .buttonMainBox button{
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .About h1{
+    font-size: 1.4rem;
+    padding-top: 10px;
+  }
+  .About p{
+    font-size: 1rem;
+  }
+  .Footer{
+    width: 80%;
+    padding: 0;
+    font-size: .5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Header{
+    width: 70%;
+  }
+  .Header .leftHeader a h1{
+    font-size: 1.3rem;
+  }
+  .rightHeader button{
+    padding: 5.8px;
+  }
+  .MainBox,.About{
+    width: 60%;
+  }
+  .MainBox h1{
+    font-size: 1.5rem;
+  }
+  .MainBox h3{
+    width: 95%;
+    font-size: 20px;
+  }
+  .buttonMainBox{
+    width: 100%;
+  }
+  .buttonMainBox button{
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .About h1{
+    font-size: 1.4rem;
+    padding-top: 10px;
+  }
+  .About p{
+    font-size: 1rem;
+  }
+  .Footer{
+    width: 70%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: .5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .Header{
+    width: 60%;
+  }
+  .Header .leftHeader a h1{
+    font-size: 1.3rem;
+  }
+  .rightHeader button{
+    padding: 5.8px;
+  }
+  .MainBox,.About{
+    width: 50%;
+  }
+  .MainBox h1{
+    font-size: 1.5rem;
+  }
+  .MainBox h3{
+    width: 95%;
+    font-size: 20px;
+  }
+  .buttonMainBox{
+    width: 100%;
+  }
+  .buttonMainBox button{
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .About h1{
+    font-size: 1.4rem;
+    padding-top: 10px;
+  }
+  .About p{
+    font-size: 1rem;
+  }
+  .Footer{
+    width: 60%;
+    
+  }
 }
